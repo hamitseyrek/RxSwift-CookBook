@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		5EDF3E11280B897800B35A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E10280B897800B35A5B /* AppDelegate.swift */; };
 		5EDF3E13280B897800B35A5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E12280B897800B35A5B /* SceneDelegate.swift */; };
-		5EDF3E15280B897800B35A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E14280B897800B35A5B /* ViewController.swift */; };
 		5EDF3E18280B897800B35A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF3E16280B897800B35A5B /* Main.storyboard */; };
 		5EDF3E1A280B897900B35A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF3E19280B897900B35A5B /* Assets.xcassets */; };
 		5EDF3E1D280B897900B35A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF3E1B280B897900B35A5B /* LaunchScreen.storyboard */; };
+		5EDF3E26280B899E00B35A5B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E25280B899E00B35A5B /* HomeVC.swift */; };
+		5EDF3E29280B8BD200B35A5B /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E28280B8BD200B35A5B /* FoodTableViewCell.swift */; };
+		5EDF3E2C280B8CC100B35A5B /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E2B280B8CC100B35A5B /* Food.swift */; };
+		5EDF3E2F280B8CFE00B35A5B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5EDF3E2E280B8CFE00B35A5B /* RxCocoa */; };
+		5EDF3E31280B8CFE00B35A5B /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 5EDF3E30280B8CFE00B35A5B /* RxRelay */; };
+		5EDF3E33280B8CFE00B35A5B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5EDF3E32280B8CFE00B35A5B /* RxSwift */; };
+		5EDF3E35280B8D3900B35A5B /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E34280B8D3900B35A5B /* DetailVC.swift */; };
+		5EDF3E39280BA9C900B35A5B /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E38280BA9C900B35A5B /* SectionModel.swift */; };
+		5EDF3E3C280BAB1F00B35A5B /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 5EDF3E3B280BAB1F00B35A5B /* RxDataSources */; };
+		5EDF3E3E280CBB0800B35A5B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E3D280CBB0800B35A5B /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5EDF3E0D280B897800B35A5B /* RxSwift CookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift CookBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDF3E10280B897800B35A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EDF3E12280B897800B35A5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EDF3E14280B897800B35A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EDF3E17280B897800B35A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EDF3E19280B897900B35A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EDF3E1C280B897900B35A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EDF3E1E280B897900B35A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDF3E25280B899E00B35A5B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		5EDF3E28280B8BD200B35A5B /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		5EDF3E2B280B8CC100B35A5B /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		5EDF3E34280B8D3900B35A5B /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		5EDF3E38280BA9C900B35A5B /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		5EDF3E3D280CBB0800B35A5B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDF3E33280B8CFE00B35A5B /* RxSwift in Frameworks */,
+				5EDF3E3C280BAB1F00B35A5B /* RxDataSources in Frameworks */,
+				5EDF3E31280B8CFE00B35A5B /* RxRelay in Frameworks */,
+				5EDF3E2F280B8CFE00B35A5B /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,44 @@
 		5EDF3E0F280B897800B35A5B /* RxSwift CookBook */ = {
 			isa = PBXGroup;
 			children = (
+				5EDF3E2A280B8CB400B35A5B /* Model */,
+				5EDF3E27280B8BB100B35A5B /* View */,
+				5EDF3E24280B897F00B35A5B /* ViewController */,
 				5EDF3E10280B897800B35A5B /* AppDelegate.swift */,
 				5EDF3E12280B897800B35A5B /* SceneDelegate.swift */,
-				5EDF3E14280B897800B35A5B /* ViewController.swift */,
 				5EDF3E16280B897800B35A5B /* Main.storyboard */,
 				5EDF3E19280B897900B35A5B /* Assets.xcassets */,
 				5EDF3E1B280B897900B35A5B /* LaunchScreen.storyboard */,
 				5EDF3E1E280B897900B35A5B /* Info.plist */,
 			);
 			path = "RxSwift CookBook";
+			sourceTree = "<group>";
+		};
+		5EDF3E24280B897F00B35A5B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5EDF3E25280B899E00B35A5B /* HomeVC.swift */,
+				5EDF3E34280B8D3900B35A5B /* DetailVC.swift */,
+				5EDF3E3D280CBB0800B35A5B /* LoginVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5EDF3E27280B8BB100B35A5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EDF3E28280B8BD200B35A5B /* FoodTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EDF3E2A280B8CB400B35A5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EDF3E2B280B8CC100B35A5B /* Food.swift */,
+				5EDF3E38280BA9C900B35A5B /* SectionModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +130,12 @@
 			dependencies = (
 			);
 			name = "RxSwift CookBook";
+			packageProductDependencies = (
+				5EDF3E2E280B8CFE00B35A5B /* RxCocoa */,
+				5EDF3E30280B8CFE00B35A5B /* RxRelay */,
+				5EDF3E32280B8CFE00B35A5B /* RxSwift */,
+				5EDF3E3B280BAB1F00B35A5B /* RxDataSources */,
+			);
 			productName = "RxSwift CookBook";
 			productReference = 5EDF3E0D280B897800B35A5B /* RxSwift CookBook.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +164,10 @@
 				Base,
 			);
 			mainGroup = 5EDF3E04280B897700B35A5B;
+			packageReferences = (
+				5EDF3E2D280B8CFE00B35A5B /* XCRemoteSwiftPackageReference "RxSwift" */,
+				5EDF3E3A280BAB1F00B35A5B /* XCRemoteSwiftPackageReference "RxDataSources" */,
+			);
 			productRefGroup = 5EDF3E0E280B897800B35A5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EDF3E15280B897800B35A5B /* ViewController.swift in Sources */,
+				5EDF3E26280B899E00B35A5B /* HomeVC.swift in Sources */,
+				5EDF3E29280B8BD200B35A5B /* FoodTableViewCell.swift in Sources */,
+				5EDF3E2C280B8CC100B35A5B /* Food.swift in Sources */,
 				5EDF3E11280B897800B35A5B /* AppDelegate.swift in Sources */,
+				5EDF3E3E280CBB0800B35A5B /* LoginVC.swift in Sources */,
 				5EDF3E13280B897800B35A5B /* SceneDelegate.swift in Sources */,
+				5EDF3E39280BA9C900B35A5B /* SectionModel.swift in Sources */,
+				5EDF3E35280B8D3900B35A5B /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +420,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EDF3E2D280B8CFE00B35A5B /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		5EDF3E3A280BAB1F00B35A5B /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5EDF3E2E280B8CFE00B35A5B /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EDF3E2D280B8CFE00B35A5B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		5EDF3E30280B8CFE00B35A5B /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EDF3E2D280B8CFE00B35A5B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		5EDF3E32280B8CFE00B35A5B /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EDF3E2D280B8CFE00B35A5B /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		5EDF3E3B280BAB1F00B35A5B /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EDF3E3A280BAB1F00B35A5B /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5EDF3E05280B897700B35A5B /* Project object */;
 }
