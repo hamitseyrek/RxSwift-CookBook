@@ -22,6 +22,7 @@
 		5EDF3E39280BA9C900B35A5B /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E38280BA9C900B35A5B /* SectionModel.swift */; };
 		5EDF3E3C280BAB1F00B35A5B /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 5EDF3E3B280BAB1F00B35A5B /* RxDataSources */; };
 		5EDF3E3E280CBB0800B35A5B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF3E3D280CBB0800B35A5B /* LoginVC.swift */; };
+		5EDF3E40280CCEE900B35A5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5EDF3E3F280CCEE900B35A5B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		5EDF3E34280B8D3900B35A5B /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		5EDF3E38280BA9C900B35A5B /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 		5EDF3E3D280CBB0800B35A5B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		5EDF3E3F280CCEE900B35A5B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		5EDF3E04280B897700B35A5B = {
 			isa = PBXGroup;
 			children = (
+				5EDF3E3F280CCEE900B35A5B /* README.md */,
 				5EDF3E0F280B897800B35A5B /* RxSwift CookBook */,
 				5EDF3E0E280B897800B35A5B /* Products */,
 			);
@@ -184,6 +187,7 @@
 			files = (
 				5EDF3E1D280B897900B35A5B /* LaunchScreen.storyboard in Resources */,
 				5EDF3E1A280B897900B35A5B /* Assets.xcassets in Resources */,
+				5EDF3E40280CCEE900B35A5B /* README.md in Resources */,
 				5EDF3E18280B897800B35A5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
